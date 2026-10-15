@@ -1,0 +1,248 @@
+\documentclass[letterpaper, 11pt]{article}
+\usepackage{geometry}
+\usepackage{etaremune}
+\raggedright
+\usepackage{libertine}
+ \usepackage{longtable}
+ \usepackage{xcolor}
+\usepackage{titlesec}
+
+% Muted sage green
+\definecolor{Classic Botanical Green}{HTML}{4F6B50}
+
+% Color section and subsection headings
+\titleformat{\section}
+  {\Large\bfseries\color{Classic Botanical Green}}
+  {}{0em}{}
+  [\color{Classic Botanical Green}\titlerule]
+
+\titleformat{\subsection}
+  {\large\bfseries\color{Classic Botanical Green}}
+  {}{0em}{}
+
+\def\name{Samantha Day Briggs}
+
+\geometry{
+body={6.5in, 9in},
+left=1.0in,
+top=1.0in}
+
+%customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+
+\usepackage{array}
+%\newcolumntype{L}{>{\raggedleft}p{0.15\textwidth}}
+\newcolumntype{R}{>{\raggedright\arraybackslash}p{0.85\textwidth}}
+\newcolumntype{D}{>{\raggedright}p{0.11\textwidth}}  
+\newcolumntype{M}{>{\raggedright}p{0.91\textwidth}}
+\newcolumntype{N}{>{\raggedright\arraybackslash}p{0.09\textwidth}}
+% Teaching section - 3 columns
+\newcolumntype{Y}{>{\raggedright\arraybackslash}p{0.12\textwidth}}
+\newcolumntype{C}{>{\raggedright\arraybackslash}p{0.60\textwidth}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}p{0.30\textwidth}}
+
+
+\begin{document}
+%{\huge\textbf{\name}}
+{\huge\textbf{\color{Classic Botanical Green}\name}}
+\vspace{0.1in}
+
+\noindent
+\begin{minipage}[t]{0.62\linewidth}
+Odum School of Ecology\\
+University of Georgia\\
+140 E Green St, Athens, GA 30602
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\raggedleft
+samantha.day25@uga.edu.edu\\
+\url{https://SamanthaDayBriggs.github.io}
+\end{minipage}
+
+
+
+\section*{Appointments}
+\begin{tabular}{DR}
+2025 --     & \textbf{Postdoctoral Researcher}, Odum School of Ecology, University of Georgia. \\
+& Mentor: Megan Vahsen.\\ [0.5ex]
+
+\end{tabular}
+
+
+%Education
+\section*{Education}
+\begin{tabular}{DR}
+2019 -- 2025 & \textbf{Ph.D. Genetics}. University of Georgia. \\ 
+ & Advisor: Jill T. Anderson. \\ 
+ & Dissertation title: \textit{Floral evolution in a changing world: The effects of climate change on floral traits and plant-pollinator interactions} \\[0.5ex]
+2014 -- 2017 & \textbf{B.S. Genetics}. University of Georgia. \\
+2014 -- 2017 & \textbf{B.S. Psychology}, \textit{emphasis in neuroscience}. University of Georgia.\\
+
+
+\end{tabular}
+
+\section*{Publications}
+\subsection*{Peer-reviewed Publications}
+
+\begin{enumerate}
+ \setlength{\itemsep}{4pt}
+ \setlength{\parskip}{0pt}
+  \item \textbf{Day Briggs, S.} and Anderson, J.T.“Spatial mismatches of plant-pollinator interactions under future climate conditions”, \textit{Journal of Biogeography}, 2026; 53(4); e70204. https://doi.org/10.1111/jbi.70204
+ \item \textbf{Day Briggs, S.} and Anderson, J.T. “The Effect of Global Change on The Expression and Evolution of Floral Traits”, \textit{Annals of Botany}, 2025; mcae057. https://doi.org/10.1093/aob/mcae057
+ \item Hamann, E., D.A. Denney, \textbf{S. Day}, E. Lombardi, M.I. Jameel, R. MacTavish, and J.T. Anderson. Plant eco-evolutionary responses to climate change: Emerging directions. \textit{Plant Science, 2020;}, 110737. https://doi.org/10.1016/j.plantsci.2020.110737 
+ 
+\end{enumerate}
+\subsection*{Manuscripts in review}
+\begin{enumerate}
+ \item Vahsen, M.L., Ashander, J., \textbf{Day Briggs, S.}, Blum, M., Megonigal, J.P., and McLachlan, J.S. “Plastic and evolutionary responses of plants to sea level rise alter marsh ecosystem processes: Lessons from an eco-evolutionary model”, \textit{in Review, Proceedings of the Royal Society B}
+\end{enumerate} 
+
+\subsection*{Preprints and In Prep}
+{\small\textit{*indicates undergraduate mentee}}
+\begin{enumerate}
+\item{\textbf{Day Briggs, S.}}, Howard, M.C.\textsuperscript{*}, and Anderson, J.T.. “Pollinator preference for large flowers contrasts with clinal variation in flower size ”,  BioRxiv
+\item {\textbf{Day Briggs, S.}}, Blum, M., and Vahsen, M.L.. “Evolutionary shifts in reproductive allocation in a coastal sedge”,  draft manuscript in review with co-authors
+ \end{enumerate} 
+
+
+\section*{Awards \& Fellowships}
+\begin{tabular}{DR}
+2024 &Linton and June Bishop Fellowship for Excellence in Research, University of Georgia \$1,500 \\
+2023 &Mary Case Award for Excellence in Teaching and Mentoring, University of Georgia \$1,000 \\
+2023  &University of Georgia's Outstanding Teaching Assistant Award \\
+2022 &American Iris Society Foundation Research Grant, \$19,127 \\
+2022  & Future Faculty Fellow, University of Georgia, \$600\\
+2021 &Robin Hightower Research Award, \$1,000 \\
+2020  &Seed Grants in the Sciences, University of Georgia, \textit{co-authored with Jill T. Anderson} \$24,760 \\
+2022 &Innovative and Interdisciplinary Research Award, University of Georgia \$2,000 \\
+
+\end{tabular}
+
+\section*{Presentations}
+
+\begin{tabular}{DR}
+
+2025 &Ecology, Diversity, Genetics, and Evolution Seminar Series. University of Georgia. Athens, GA. \\
+2025 & Genetics Departmental Exit Seminar. University of Georgia. Athens, GA. \\
+2024 & University of North Georgia. Gainesville, GA. \\ 
+2023 &Ecology, Diversity, Genetics, and Evolution Seminar Series. University of Georgia. Athens, GA. \\
+2022 & Graduate Student Seminar Series, Rocky Mountain Biological Laboratory. Crested Butte, CO. \\
+\end{tabular}
+\subsection*{Mentored Presentations}
+\begin{tabular} {DR}
+2024 &Daliz Casablanca Sanchez, SUNFIG/REU poster presentation. Athens, GA. \\
+\end{tabular}
+
+
+\section*{Teaching \& Mentoring Experience}
+\subsection*{Courses of Record}
+\begin{tabular}{Y C L}
+2020-2023 & Instructor, Biology 1107L, \textit{Introductory Molecular Biology Lab} & University of Georgia \\
+\end{tabular}
+\\
+\subsection*{Teaching Assistant}
+\begin{tabular}{Y C L}
+2025 &GENE4230, \textit{Evolutionary Biology} & University of Georgia \\
+2025 &BIOL49X0R, \textit{Faculty-Mentored Undergraduate Research}, Scientific Writing Instructor  & University of Georgia \\
+2023 -- 2025 &GENE 3000, \textit{Evolution} & University of Georgia \\
+2021 &BIOL2107H \textit{Honors Introductory Biology: Molecular Biology} & University of Georgia \\
+\end{tabular}
+
+\subsection*{Programming Instruction}
+\begin{tabular}{Y C L}
+2023 -- 2024 & Active learning and teaching success workshops & University of Georgia
+\end{tabular}
+
+\subsection*{Mentoring Programs}
+ \begin{tabular}{DR}
+  2024 & University of Georgia Young Dawgs Program, Athens, GA \\
+ 2023 & Summer Undergraduate Fellowship in Genetics REU, UGA \\
+ &  Crop, Genetics, \& Genomics REU, UGA \\
+ 2022 & University of Georgia Young Dawgs Program, Athens, GA \\
+ 2016 &University of Georgia Young Scholars Program, Griffin, GA \\
+ 
+ \end{tabular}
+
+ \subsection*{Undergraduate Students}
+ \vspace{-0.50em}
+ {\small\textit{*indicates REU student}}\\[0.50em]
+ \newcolumntype{Y}{>{\raggedright\arraybackslash}p{0.14\textwidth}}
+\newcolumntype{C}{>{\raggedright\arraybackslash}p{0.34\textwidth}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}p{0.46\textwidth}}
+ \begin{longtable}{YCL}
+ 2025 --  & Erin Brown & University of Georgia \\
+ 2025 --  & Victoria Cone & University of Georgia \\
+ 2025 --  & Sophie Smith & University of Georgia \\
+ 2025 --  & Melissa Garcia & University of Georgia \\
+ 2025 --  & Tessa Cote & University of Georgia \\
+ 2024 -- 2025 & Mallory Howard & University of Georgia \\
+ 2024 & *Daliz Casablanca Sanchez & University of Georgia \\
+ 2023 --2024 & Shawn Rahim & University of Georgia \\
+ 2023 --2024 & Daniel Cardis & University of Georgia \\
+ 2023 -- 2024 & Alexa Leahy & University of Georgia \\
+ 2023 --2024 & Amanda Wijesinghe & University of Georgia \\
+ 2022 --2024 & Leena Patel & University of Georgia \\
+ 2022-- 2023 & Caroline McConnell & University of Georgia \\
+ 2022 -- 2023 & Jane Aloi & University of Georgia \\
+ 2022 -- 2023 & Ron Saler & University of Georgia \\
+ 2022--2023 & Nikhil Manocha & University of Georgia \\
+ 2022 & Nora Oviatt & Rocky Mountain Biological Laboratory \\
+ 2022 & Andrew Kluttz & University of Georgia \\
+ 2022 & Manav Kumar & University of Georgia \\
+ 2021--2022 & Pratik Patel & University of Georgia \\
+ 2021--2022 & Ian Volmer & University of Georgia \\
+ 2021 --2022 & Kira Hills & University of Georgia \\
+ 2021--2022 & Zoe Bunch & University of Georgia \\
+ 2021 & Annette Marks & Rocky Mountain Biological Laboratory \\
+ 2021 & Rachael Eggleston & Rocky Mountain Biological Laboratory \\
+ 2021 & Bronwyn Taylor & Rocky Mountain Biological Laboratory \\
+ 2021 & Emma Fetterly & Rocky Mountain Biological Laboratory \\
+ 2021 & Ally Wong & Rocky Mountain Biological Laboratory \\
+ 2021 & Anthony Lee & University of Georgia \\
+ 2020 & Paige Rumery & Rocky Mountain Biological Laboratory \\
+ 2020 & Jade Grimm & Rocky Mountain Biological Laboratory \\
+ 2019 & Eric Mayo & University of Georgia \\
+ 2018 & Michala Le & University of Georgia \\
+
+ 
+ \end{longtable}
+
+\subsection*{High School Mentorship}
+ \begin{tabular}{DR}
+2024 & Irina Robinson (Young Dawgs Mentee)\\
+2022 & Saisri Tangirala (Young Dawgs Mentee)\\
+2016 & Akiel Etienne (Young Dawgs Mentee)\\
+2016 & Zabeena Dharani (Young Dawgs Mentee)\\
+ \end{tabular}
+
+\section*{Leadership, Service, and Outreach Activities}
+\begin{tabular}{Y C L}
+2024 & Guest Research Speaker, Public tour of Rocky Mountain Biological Laboratory & Rocky Mountain Biological Laboratory \\
+2024 & Organizer, Spring Teaching Symposium & University of Georgia \\
+2023 -- 2024 & Future Faculty Fellow & University of Georgia \\
+2023 & Organizer, TA Orientation & University of Georgia \\
+2023 & Mentor, Integrated Plant Sciences & University of Georgia \\ 
+2023 & Panelist, TA Orientation & University of Georgia \\
+2022 & Co-author, Genetics and Plant Biology Field Safety Guide & University of Georgia \\
+2018 & Science Tutor \\
+2013 & Orientation Leader & Middle Georgia State University \\
+\end{tabular}
+\section*{Workshops Attended}
+\begin{tabular}{Y C L}
+2025 & Coastal Resilience Symposium & University of Georgia \\
+2024 & Identity-Based Field Safety Workshop & Rocky Mountain Biological Laboratory \\
+2023 & Genomics Data Carpentry Workshop & University of Georgia \\
+2022 & Southeastern Population Ecology and Evolutionary Genetics Meeting & Eatonton, GA \\
+2022 & Field Station Management Workshop & Rocky Mountain Biological Laboratory \\
+2022 & Field Station Finances Workshop & Rocky Mountain Biological Laboratory \\
+2021 & Safer Science Field Safety Workshop & Cornell University \\
+\end{tabular}
+\section*{Journal Reviewer}
+Annals of Botany (3), Journal of Ecology (2), Ecology (1), Proceedings of the Royal Society B (1)
+
+
+\end{document}
